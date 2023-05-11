@@ -1,0 +1,25 @@
+name: tfhrSMP
+main: io.github.cats1337.tfhrMain
+version: 0.0.2
+api-version: 1.19
+author: Cats
+description: Miscellaneous plugins for 24hrSMP
+prefix: 24hrSMP
+
+commands:
+  rpot:
+    description: Give player a random potion
+    usage: /rpot
+    permission: tfhrSMP.rpot
+  rpotall:
+    description: Give all players a random potion
+    usage: /rpotall
+    permission: tfhrSMP.rpotall
+
+permissions:
+  tfhrSMP.rpot:
+    description: Gives player a random potion
+    default: op
+  tfhrSMP.rpotall:
+    description: Gives all players a random potion
+    default: op
